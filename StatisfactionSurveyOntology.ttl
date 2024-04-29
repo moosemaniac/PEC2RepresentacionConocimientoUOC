@@ -24,7 +24,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#hasAircraft
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAircraft
 :hasAircraft rdf:type owl:ObjectProperty ,
                       owl:FunctionalProperty ;
              rdfs:domain :Flight ;
@@ -33,7 +33,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
              rdfs:label "hasAircraft"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#hasAuthor
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAuthor
 :hasAuthor rdf:type owl:ObjectProperty ,
                     owl:FunctionalProperty ;
            rdfs:domain :Survey ;
@@ -42,7 +42,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
            rdfs:label "hasAuthor"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#hasDestiny
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDestiny
 :hasDestiny rdf:type owl:ObjectProperty ,
                      owl:FunctionalProperty ;
             rdfs:domain :Flight ;
@@ -51,7 +51,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
             rdfs:label "hasDestiny"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#hasFlight
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasFlight
 :hasFlight rdf:type owl:ObjectProperty ,
                     owl:FunctionalProperty ;
            rdfs:domain :Survey ;
@@ -60,7 +60,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
            rdfs:label "hasFlight"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#hasOrigin
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasOrigin
 :hasOrigin rdf:type owl:ObjectProperty ,
                     owl:FunctionalProperty ;
            rdfs:domain :Flight ;
@@ -69,7 +69,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
            rdfs:label "hasOrigin"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#hasRating
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasRating
 :hasRating rdf:type owl:ObjectProperty ,
                     owl:FunctionalProperty ;
            rdfs:domain :Survey ;
@@ -78,7 +78,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
            rdfs:label "hasRating"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#isAirline
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isAirline
 :isAirline rdf:type owl:ObjectProperty ,
                     owl:FunctionalProperty ;
            rdfs:domain :Survey ;
@@ -87,7 +87,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
            rdfs:label "isAirline"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#isFrom
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isFrom
 :isFrom rdf:type owl:ObjectProperty ,
                  owl:FunctionalProperty ;
         rdfs:domain :Author ;
@@ -96,7 +96,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
         rdfs:label "isFrom"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#isSeatType
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType
 :isSeatType rdf:type owl:ObjectProperty ,
                      owl:FunctionalProperty ;
             rdfs:domain :Author ;
@@ -105,7 +105,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
             rdfs:label "isSeatType"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#isTravelType
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType
 :isTravelType rdf:type owl:ObjectProperty ,
                        owl:FunctionalProperty ;
               rdfs:domain :Author ;
@@ -118,7 +118,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#flewIn
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/flewIn
 :flewIn rdf:type owl:DatatypeProperty ,
                  owl:FunctionalProperty ;
         rdfs:domain :Flight ;
@@ -127,7 +127,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
         rdfs:label "flyDate"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#hasDate
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDate
 :hasDate rdf:type owl:DatatypeProperty ,
                   owl:FunctionalProperty ;
          rdfs:domain :Survey ;
@@ -136,7 +136,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
          rdfs:label "writtenDate"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#hasReview
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasReview
 :hasReview rdf:type owl:DatatypeProperty ,
                     owl:FunctionalProperty ;
            rdfs:domain :Survey ;
@@ -145,7 +145,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
            rdfs:label "hasReview"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#hasTitle
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasTitle
 :hasTitle rdf:type owl:DatatypeProperty ,
                    owl:FunctionalProperty ;
           rdfs:domain :Survey ;
@@ -154,7 +154,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
           rdfs:label "hasTitle"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#isVerified
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified
 :isVerified rdf:type owl:DatatypeProperty ,
                      owl:FunctionalProperty ;
             rdfs:domain :Flight ;
@@ -167,20 +167,20 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Aircraft
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Aircraft
 :Aircraft rdf:type owl:Class ;
           rdfs:comment "This class represents all Aircrafts"@en ;
           rdfs:label "Aircraft"@en ;
           rdfs:sameAs "https://dbpedia.org/page/List_of_aircraft" .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Author
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Author
 :Author rdf:type owl:Class ;
         rdfs:comment "This class represents all Survey authors"@en ;
         rdfs:label "Author"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Business
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business
 :Business rdf:type owl:Class ;
           owl:equivalentClass [ rdf:type owl:Restriction ;
                                 owl:onProperty :isTravelType ;
@@ -189,7 +189,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
           rdfs:subClassOf :Traveller .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Business_class
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class
 :Business_class rdf:type owl:Class ;
                 owl:equivalentClass [ rdf:type owl:Restriction ;
                                       owl:onProperty :isSeatType ;
@@ -198,21 +198,21 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
                 rdfs:subClassOf :Seat .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Company
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Company
 :Company rdf:type owl:Class ;
          rdfs:comment "This class represents all airline companies"@en ;
          rdfs:label "Company"@en ;
          rdfs:sameAs "https://dbpedia.org/page/List_of_passenger_airlines" .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Country
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Country
 :Country rdf:type owl:Class ;
          rdfs:comment "This class represents all countries"@en ;
          rdfs:label "Country"@en ;
          rdfs:sameAs "https://dbpedia.org/page/Category:Lists_of_countries" .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Couple_Leisure
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_Leisure
 :Couple_Leisure rdf:type owl:Class ;
                 owl:equivalentClass [ rdf:type owl:Restriction ;
                                       owl:onProperty :isTravelType ;
@@ -223,14 +223,13 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
                 rdfs:label "Couple leisure"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Destiny
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Destiny
 :Destiny rdf:type owl:Class ;
-         owl:equivalentClass :Origin ;
          rdfs:comment "This class represents all possible countries of destiny"@en ;
          rdfs:label "Destiny"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Economy_class
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class
 :Economy_class rdf:type owl:Class ;
                owl:equivalentClass [ rdf:type owl:Restriction ;
                                      owl:onProperty :isSeatType ;
@@ -239,7 +238,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
                rdfs:subClassOf :Seat .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Family_Leisure
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_Leisure
 :Family_Leisure rdf:type owl:Class ;
                 owl:equivalentClass [ rdf:type owl:Restriction ;
                                       owl:onProperty :isTravelType ;
@@ -250,7 +249,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
                 rdfs:label "Family leisure"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#First_class
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class
 :First_class rdf:type owl:Class ;
              owl:equivalentClass [ rdf:type owl:Restriction ;
                                    owl:onProperty :isSeatType ;
@@ -259,13 +258,13 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
              rdfs:subClassOf :Seat .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Flight
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight
 :Flight rdf:type owl:Class ;
         rdfs:comment "This class represents every ppossible flight"@en ;
         rdfs:label "Flight"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Not_Verified
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Not_Verified
 :Not_Verified rdf:type owl:Class ;
               owl:equivalentClass [ rdf:type owl:Restriction ;
                                     owl:onProperty :isVerified ;
@@ -276,13 +275,13 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
               rdfs:label "Not verified"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Origin
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Origin
 :Origin rdf:type owl:Class ;
         rdfs:comment "This class represents all countries of origin"@en ;
         rdfs:label "Origin"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Premium_Economy
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Premium_Economy
 :Premium_Economy rdf:type owl:Class ;
                  owl:equivalentClass [ rdf:type owl:Restriction ;
                                        owl:onProperty :isSeatType ;
@@ -293,31 +292,31 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
                  rdfs:label "Premium economy"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Qatar_Airways
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_Airways
 :Qatar_Airways rdf:type owl:Class ;
                rdfs:subClassOf :Company ;
                rdfs:comment "This class represents Qatar Airways"@en ;
                rdfs:label "Qatar_Airways"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Rating
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating
 :Rating rdf:type owl:Class ;
         rdfs:comment "This class represents every possible rating"@en ;
         rdfs:label "Rating"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Ryanair
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair
 :Ryanair rdf:type owl:Class ;
          rdfs:subClassOf :Company .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Seat
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat
 :Seat rdf:type owl:Class ;
       rdfs:comment "This class represents every possible seat type"@en ;
       rdfs:label "Seat Type"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Solo_Leisure
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Solo_Leisure
 :Solo_Leisure rdf:type owl:Class ;
               owl:equivalentClass [ rdf:type owl:Restriction ;
                                     owl:onProperty :isTravelType ;
@@ -328,19 +327,19 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
               rdfs:label "Solo leisure"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Survey
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey
 :Survey rdf:type owl:Class ;
         rdfs:comment "This class represents all satisfaction surveys"@en ;
         rdfs:label "Survey" .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Traveller
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller
 :Traveller rdf:type owl:Class ;
            rdfs:comment "This class represents all traveller types"@en ;
            rdfs:label "Traveller type"@en .
 
 
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Verified
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Verified
 :Verified rdf:type owl:Class ;
           owl:equivalentClass [ rdf:type owl:Restriction ;
                                 owl:onProperty :isVerified ;
@@ -354,104 +353,6 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 #################################################################
 #    Individuals
 #################################################################
-
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#A380-800
-:A380-800 rdf:type owl:NamedIndividual ,
-                   :Aircraft .
-
-
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Alwaleed_Althani
-:Alwaleed_Althani rdf:type owl:NamedIndividual ,
-                           :Author ;
-                  :isFrom :Qatar ;
-                  :isSeatType :First_class ;
-                  :isTravelType :Couple_leisure .
-
-
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Boeing_737_900
-:Boeing_737_900 rdf:type owl:NamedIndividual ,
-                         :Aircraft .
-
-
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Business
-:Business rdf:type owl:NamedIndividual ,
-                   :Traveller .
-
-
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Business_class
-:Business_class rdf:type owl:NamedIndividual ,
-                         :Seat .
-
-
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Couple_leisure
-:Couple_leisure rdf:type owl:NamedIndividual ,
-                         :Traveller .
-
-
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Doha
-:Doha rdf:type owl:NamedIndividual ,
-               :Origin .
-
-
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Economy_class
-:Economy_class rdf:type owl:NamedIndividual ,
-                        :Seat .
-
-
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Family_leisure
-:Family_leisure rdf:type owl:NamedIndividual ,
-                         :Traveller .
-
-
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Faro
-:Faro rdf:type owl:NamedIndividual ,
-               :Origin .
-
-
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#First_class
-:First_class rdf:type owl:NamedIndividual ,
-                      :Seat .
-
-
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#London_Heathrow
-:London_Heathrow rdf:type owl:NamedIndividual ,
-                          :Destiny .
-
-
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Luton
-:Luton rdf:type owl:NamedIndividual ,
-                :Destiny .
-
-
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Premium_economy
-:Premium_economy rdf:type owl:NamedIndividual ,
-                          :Seat .
-
-
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Qatar
-:Qatar rdf:type owl:NamedIndividual ,
-                :Country .
-
-
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Qatar_airways
-:Qatar_airways rdf:type owl:NamedIndividual ,
-                        :Company .
-
-
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Ryanair
-:Ryanair rdf:type owl:NamedIndividual ,
-                  :Company .
-
-
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#Solo_leisure
-:Solo_leisure rdf:type owl:NamedIndividual ,
-                       :Traveller .
-
-
-###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#United_kingdom
-:United_kingdom rdf:type owl:NamedIndividual ,
-                         :Country .
-
 
 ###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01
 <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01> rdf:type owl:NamedIndividual ,
@@ -551,6 +452,104 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 ###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#9
 <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#9> rdf:type owl:NamedIndividual ,
                                                                        :Rating .
+
+
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/A380-800
+:A380-800 rdf:type owl:NamedIndividual ,
+                   :Aircraft .
+
+
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Alwaleed_Althani
+:Alwaleed_Althani rdf:type owl:NamedIndividual ,
+                           :Author ;
+                  :isFrom :Qatar ;
+                  :isSeatType :First_class ;
+                  :isTravelType :Couple_leisure .
+
+
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Boeing_737_900
+:Boeing_737_900 rdf:type owl:NamedIndividual ,
+                         :Aircraft .
+
+
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business
+:Business rdf:type owl:NamedIndividual ,
+                   :Traveller .
+
+
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class
+:Business_class rdf:type owl:NamedIndividual ,
+                         :Seat .
+
+
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_leisure
+:Couple_leisure rdf:type owl:NamedIndividual ,
+                         :Traveller .
+
+
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Doha
+:Doha rdf:type owl:NamedIndividual ,
+               :Origin .
+
+
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class
+:Economy_class rdf:type owl:NamedIndividual ,
+                        :Seat .
+
+
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_leisure
+:Family_leisure rdf:type owl:NamedIndividual ,
+                         :Traveller .
+
+
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Faro
+:Faro rdf:type owl:NamedIndividual ,
+               :Origin .
+
+
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class
+:First_class rdf:type owl:NamedIndividual ,
+                      :Seat .
+
+
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/London_Heathrow
+:London_Heathrow rdf:type owl:NamedIndividual ,
+                          :Destiny .
+
+
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Luton
+:Luton rdf:type owl:NamedIndividual ,
+                :Destiny .
+
+
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Premium_economy
+:Premium_economy rdf:type owl:NamedIndividual ,
+                          :Seat .
+
+
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar
+:Qatar rdf:type owl:NamedIndividual ,
+                :Country .
+
+
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_airways
+:Qatar_airways rdf:type owl:NamedIndividual ,
+                        :Company .
+
+
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair
+:Ryanair rdf:type owl:NamedIndividual ,
+                  :Company .
+
+
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Solo_leisure
+:Solo_leisure rdf:type owl:NamedIndividual ,
+                       :Traveller .
+
+
+###  http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/United_kingdom
+:United_kingdom rdf:type owl:NamedIndividual ,
+                         :Country .
 
 
 #################################################################
