@@ -1,0 +1,672 @@
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
+<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAircraft
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAircraft> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAircraft> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Aircraft> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "Property of the flight. IT indicates the aircraft used in said Flight."@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAircraft> <http://www.w3.org/2000/01/rdf-schema#label> "hasAircraft"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAuthor
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAuthor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAuthor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAuthor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAuthor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Author> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAuthor> <http://www.w3.org/2000/01/rdf-schema#comment> "Property of having an author. It indicates that the survey is written by the author"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAuthor> <http://www.w3.org/2000/01/rdf-schema#label> "hasAuthor"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDestiny
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDestiny> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDestiny> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDestiny> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDestiny> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Destiny> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDestiny> <http://www.w3.org/2000/01/rdf-schema#comment> "Property of having a destination. It indicates that the flight has said destiny"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDestiny> <http://www.w3.org/2000/01/rdf-schema#label> "hasDestiny"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasFlight
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasFlight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasFlight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasFlight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasFlight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasFlight> <http://www.w3.org/2000/01/rdf-schema#comment> "Property of having a flight. It indicates that the survey is talking about the flight."@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasFlight> <http://www.w3.org/2000/01/rdf-schema#label> "hasFlight"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasOrigin
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasOrigin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasOrigin> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasOrigin> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Origin> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasOrigin> <http://www.w3.org/2000/01/rdf-schema#comment> "Property of having an origin. It indicates that the flight origins from there."@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasOrigin> <http://www.w3.org/2000/01/rdf-schema#label> "hasOrigin"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasRating
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasRating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasRating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasRating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasRating> <http://www.w3.org/2000/01/rdf-schema#comment> "Property of having a rating. It indicates that the survey has been rated that."@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasRating> <http://www.w3.org/2000/01/rdf-schema#label> "hasRating"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isAirline
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isAirline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isAirline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isAirline> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isAirline> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Company> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isAirline> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that indicates from which airline is the survey"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isAirline> <http://www.w3.org/2000/01/rdf-schema#label> "isAirline"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isFrom
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isFrom> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Author> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isFrom> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Country> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isFrom> <http://www.w3.org/2000/01/rdf-schema#comment> "Property that indicates that some author is from some country"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isFrom> <http://www.w3.org/2000/01/rdf-schema#label> "isFrom"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Author> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the type of seat an author used"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType> <http://www.w3.org/2000/01/rdf-schema#label> "isSeatType"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Author> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType> <http://www.w3.org/2000/01/rdf-schema#comment> "It indicates which type of travel the author went in"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType> <http://www.w3.org/2000/01/rdf-schema#label> "isTravelType"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/flewIn
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/flewIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/flewIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/flewIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/flewIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/flewIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Date in which the flight was conducted"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/flewIn> <http://www.w3.org/2000/01/rdf-schema#label> "flyDate"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDate
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date in which the survey was answered."@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDate> <http://www.w3.org/2000/01/rdf-schema#label> "writtenDate"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasReview
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasReview> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasReview> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasReview> <http://www.w3.org/2000/01/rdf-schema#comment> "Property of having a review. Contains the text review"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasReview> <http://www.w3.org/2000/01/rdf-schema#label> "hasReview"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasTitle
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasTitle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasTitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates the review's title"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasTitle> <http://www.w3.org/2000/01/rdf-schema#label> "hasTitle"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates if a trip is verified or not"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified> <http://www.w3.org/2000/01/rdf-schema#label> "isVerified"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Aircraft
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Aircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Aircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents all Aircrafts"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Aircraft> <http://www.w3.org/2000/01/rdf-schema#label> "Aircraft"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Aircraft> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/List_of_aircraft" .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Author
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Author> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents all Survey authors"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Author> <http://www.w3.org/2000/01/rdf-schema#label> "Author"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#hasValue> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#hasValue> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Company
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Company> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Company> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents all airline companies"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Company> <http://www.w3.org/2000/01/rdf-schema#label> "Company"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Company> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/List_of_passenger_airlines" .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Country
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Country> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents all countries"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Country> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Category:Lists_of_countries" .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_Leisure
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_Leisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_Leisure> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#hasValue> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_leisure> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_Leisure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_Leisure> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents all couple leiusre travellers"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_Leisure> <http://www.w3.org/2000/01/rdf-schema#label> "Couple leisure"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Destiny
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Destiny> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Destiny> <http://www.w3.org/2002/07/owl#equivalentClass> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Origin> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Destiny> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents all possible countries of destiny"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Destiny> <http://www.w3.org/2000/01/rdf-schema#label> "Destiny"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#hasValue> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_Leisure
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_Leisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_Leisure> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#hasValue> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_leisure> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_Leisure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_Leisure> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents all family leisure travellers"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_Leisure> <http://www.w3.org/2000/01/rdf-schema#label> "Family leisure"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#hasValue> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents every ppossible flight"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight> <http://www.w3.org/2000/01/rdf-schema#label> "Flight"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Not_Verified
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Not_Verified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Not_Verified> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#hasValue> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Not_Verified> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Not_Verified> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents all unverified flights"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Not_Verified> <http://www.w3.org/2000/01/rdf-schema#label> "Not verified"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Origin
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Origin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Origin> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents all countries of origin"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Origin> <http://www.w3.org/2000/01/rdf-schema#label> "Origin"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Premium_Economy
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Premium_Economy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Premium_Economy> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#hasValue> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Premium_economy> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Premium_Economy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Premium_Economy> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents all premium aconomy seats"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Premium_Economy> <http://www.w3.org/2000/01/rdf-schema#label> "Premium economy"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_Airways
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_Airways> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_Airways> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Company> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_Airways> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents Qatar Airways"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_Airways> <http://www.w3.org/2000/01/rdf-schema#label> "Qatar_Airways"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents every possible rating"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating> <http://www.w3.org/2000/01/rdf-schema#label> "Rating"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Company> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents every possible seat type"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat> <http://www.w3.org/2000/01/rdf-schema#label> "Seat Type"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Solo_Leisure
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Solo_Leisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Solo_Leisure> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#hasValue> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Solo_leisure> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Solo_Leisure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Solo_Leisure> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents all solo leisure travellers"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Solo_Leisure> <http://www.w3.org/2000/01/rdf-schema#label> "Solo leisure"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents all satisfaction surveys"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey> <http://www.w3.org/2000/01/rdf-schema#label> "Survey" .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents all traveller types"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller> <http://www.w3.org/2000/01/rdf-schema#label> "Traveller type"@en .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Verified
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Verified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Verified> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#hasValue> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Verified> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Verified> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents all verified flights"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Verified> <http://www.w3.org/2000/01/rdf-schema#label> "Verified"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAuthor> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Author> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasFlight> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Flight> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasRating> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#10> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isAirline> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDate> "03/02/2024" .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasReview> "Flew back from Faro to London Luton Friday 2nd February. Ryanair in both directions was bang on time and smooth flights in both directions.  We always sit in Front for more space and this was very comfortable for just under a 3 hour flight. The cabin crew were polite and efficient with nice sense of humour especially and engagement especially Ethan and his female colleague at the front section. For their human touch [unlike sometimes the stand offish BA crews] merit a 10/10 marking" .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasTitle> "\"bang on time and smooth flights\"" .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Author
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Author> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Author> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Author> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isFrom> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/United_kingdom> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Author> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Author> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_leisure> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Flight
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Flight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Flight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Flight> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAircraft> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Boeing_737_900> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Flight> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDestiny> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Luton> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Flight> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasOrigin> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Faro> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Flight> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/flewIn> "01/02/2024" .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Flight> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#1
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#10
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#2
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3Flight
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3Flight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3Flight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3Flight> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAircraft> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/A380-800> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3Flight> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDestiny> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/London_Heathrow> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3Flight> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasOrigin> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Doha> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3Flight> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/flewIn> "February 2024" .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3Flight> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3Survey
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3Survey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3Survey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3Survey> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasRating> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#10> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3Survey> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isAirline> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_airways> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3Survey> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDate> "2024-02-25" .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3Survey> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasReview> "We flew on probably the first A380 the airline received but it’s up keep is very good the caviar was excellent and the rack of lamb was perfect the entertainment system though the screens were huge and not very cooperative it is very dated as for WiFi was bad to say the least. The seating in First Class was good and the toilets are huge I hope they update the A380." .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3Survey> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasTitle> "“I hope they update the A380”" .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#4
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#5
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#6
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#7
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#8
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#9
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/A380-800
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/A380-800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/A380-800> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Aircraft> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Alwaleed_Althani
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Alwaleed_Althani> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Alwaleed_Althani> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Author> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Alwaleed_Althani> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isFrom> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Alwaleed_Althani> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Alwaleed_Althani> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_leisure> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Boeing_737_900
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Boeing_737_900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Boeing_737_900> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Aircraft> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_leisure
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_leisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_leisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Doha
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Doha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Doha> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Origin> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_leisure
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_leisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_leisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Faro
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Faro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Faro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Origin> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/London_Heathrow
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/London_Heathrow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/London_Heathrow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Destiny> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Luton
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Luton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Luton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Destiny> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Premium_economy
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Premium_economy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Premium_economy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Country> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_airways
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_airways> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_airways> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Company> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Company> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Solo_leisure
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Solo_leisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Solo_leisure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller> .
+# 
+# http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/United_kingdom
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/United_kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/United_kingdom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Country> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents all business travellers"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business> <http://www.w3.org/2000/01/rdf-schema#label> "Business"@en .
+# 
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents business class seats"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class> <http://www.w3.org/2000/01/rdf-schema#label> "Business class"@en .
+# 
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents economy class seats"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class> <http://www.w3.org/2000/01/rdf-schema#label> "Economy class"@en .
+# 
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents all first class seats"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class> <http://www.w3.org/2000/01/rdf-schema#label> "First class"@en .
+# 
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair> <http://www.w3.org/2000/01/rdf-schema#comment> "This class represents Ryanair"@en .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair> <http://www.w3.org/2000/01/rdf-schema#label> "Ryanair"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid11 <http://www.w3.org/2002/07/owl#members> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Solo_Leisure> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_Leisure> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_Leisure> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid16 <http://www.w3.org/2002/07/owl#members> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Premium_Economy> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/s> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/sur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid21 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid21 <http://www.w3.org/2000/01/rdf-schema#comment> "Used to indicate that a trip is unverified" .
+_:genid21 <http://www.w3.org/2000/01/rdf-schema#label> "not_verified_trip" .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid21 <http://www.w3.org/2003/11/swrl#body> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid23 .
+_:genid23 <http://www.w3.org/2003/11/swrl#argument2> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid23 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/s> .
+_:genid23 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid25 .
+_:genid25 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/s> .
+_:genid25 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid21 <http://www.w3.org/2003/11/swrl#head> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid27 .
+_:genid27 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/s> .
+_:genid27 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Not_Verified> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid28 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid28 <http://www.w3.org/2000/01/rdf-schema#comment> "Used to indicate that a trip is verified" .
+_:genid28 <http://www.w3.org/2000/01/rdf-schema#label> "Verified_trip" .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid28 <http://www.w3.org/2003/11/swrl#body> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid30 .
+_:genid30 <http://www.w3.org/2003/11/swrl#argument2> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid30 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/s> .
+_:genid30 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid32 .
+_:genid32 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/s> .
+_:genid32 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid28 <http://www.w3.org/2003/11/swrl#head> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid34 .
+_:genid34 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/s> .
+_:genid34 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Verified> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid35 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid35 <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates surveys from Qatar airways" .
+_:genid35 <http://www.w3.org/2000/01/rdf-schema#label> "Qatar_survey" .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid35 <http://www.w3.org/2003/11/swrl#body> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid37 .
+_:genid37 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_airways> .
+_:genid37 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/sur> .
+_:genid37 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isAirline> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39 .
+_:genid39 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/sur> .
+_:genid39 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid35 <http://www.w3.org/2003/11/swrl#head> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid41 .
+_:genid41 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/sur> .
+_:genid41 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_Airways> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid42 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid42 <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates surveys from Ryanair" .
+_:genid42 <http://www.w3.org/2000/01/rdf-schema#label> "Ryanair_survey" .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid42 <http://www.w3.org/2003/11/swrl#body> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid44 .
+_:genid44 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair> .
+_:genid44 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/sur> .
+_:genid44 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isAirline> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid46 .
+_:genid46 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/sur> .
+_:genid46 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid42 <http://www.w3.org/2003/11/swrl#head> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48 .
+_:genid48 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/sur> .
+_:genid48 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,1179 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#"
+     xml:base="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:PEC2_2="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#sameAs -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#sameAs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAircraft -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAircraft">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Aircraft"/>
+        <rdfs:comment xml:lang="en">Property of the flight. IT indicates the aircraft used in said Flight.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasAircraft</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAuthor -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAuthor">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Author"/>
+        <rdfs:comment xml:lang="en">Property of having an author. It indicates that the survey is written by the author</rdfs:comment>
+        <rdfs:label xml:lang="en">hasAuthor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDestiny -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDestiny">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Destiny"/>
+        <rdfs:comment xml:lang="en">Property of having a destination. It indicates that the flight has said destiny</rdfs:comment>
+        <rdfs:label xml:lang="en">hasDestiny</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasFlight -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasFlight">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight"/>
+        <rdfs:comment xml:lang="en">Property of having a flight. It indicates that the survey is talking about the flight.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasFlight</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasOrigin -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasOrigin">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Origin"/>
+        <rdfs:comment xml:lang="en">Property of having an origin. It indicates that the flight origins from there.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasOrigin</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasRating -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasRating">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating"/>
+        <rdfs:comment xml:lang="en">Property of having a rating. It indicates that the survey has been rated that.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasRating</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isAirline -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isAirline">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Company"/>
+        <rdfs:comment xml:lang="en">Property that indicates from which airline is the survey</rdfs:comment>
+        <rdfs:label xml:lang="en">isAirline</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isFrom -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isFrom">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Author"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Country"/>
+        <rdfs:comment xml:lang="en">Property that indicates that some author is from some country</rdfs:comment>
+        <rdfs:label xml:lang="en">isFrom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Author"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat"/>
+        <rdfs:comment xml:lang="en">Indicates the type of seat an author used</rdfs:comment>
+        <rdfs:label xml:lang="en">isSeatType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Author"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller"/>
+        <rdfs:comment xml:lang="en">It indicates which type of travel the author went in</rdfs:comment>
+        <rdfs:label xml:lang="en">isTravelType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/flewIn -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/flewIn">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Date in which the flight was conducted</rdfs:comment>
+        <rdfs:label xml:lang="en">flyDate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDate -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Date in which the survey was answered.</rdfs:comment>
+        <rdfs:label xml:lang="en">writtenDate</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasReview -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasReview">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Property of having a review. Contains the text review</rdfs:comment>
+        <rdfs:label xml:lang="en">hasReview</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasTitle -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasTitle">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Indicates the review&apos;s title</rdfs:comment>
+        <rdfs:label xml:lang="en">hasTitle</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Indicates if a trip is verified or not</rdfs:comment>
+        <rdfs:label xml:lang="en">isVerified</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Aircraft -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Aircraft">
+        <rdfs:comment xml:lang="en">This class represents all Aircrafts</rdfs:comment>
+        <rdfs:label xml:lang="en">Aircraft</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/List_of_aircraft</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Author -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Author">
+        <rdfs:comment xml:lang="en">This class represents all Survey authors</rdfs:comment>
+        <rdfs:label xml:lang="en">Author</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Company -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Company">
+        <rdfs:comment xml:lang="en">This class represents all airline companies</rdfs:comment>
+        <rdfs:label xml:lang="en">Company</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/List_of_passenger_airlines</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Country -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Country">
+        <rdfs:comment xml:lang="en">This class represents all countries</rdfs:comment>
+        <rdfs:label xml:lang="en">Country</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/Category:Lists_of_countries</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_Leisure -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_Leisure">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_leisure"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller"/>
+        <rdfs:comment xml:lang="en">This class represents all couple leiusre travellers</rdfs:comment>
+        <rdfs:label xml:lang="en">Couple leisure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Destiny -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Destiny">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Origin"/>
+        <rdfs:comment xml:lang="en">This class represents all possible countries of destiny</rdfs:comment>
+        <rdfs:label xml:lang="en">Destiny</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_Leisure -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_Leisure">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_leisure"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller"/>
+        <rdfs:comment xml:lang="en">This class represents all family leisure travellers</rdfs:comment>
+        <rdfs:label xml:lang="en">Family leisure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight">
+        <rdfs:comment xml:lang="en">This class represents every ppossible flight</rdfs:comment>
+        <rdfs:label xml:lang="en">Flight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Not_Verified -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Not_Verified">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight"/>
+        <rdfs:comment xml:lang="en">This class represents all unverified flights</rdfs:comment>
+        <rdfs:label xml:lang="en">Not verified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Origin -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Origin">
+        <rdfs:comment xml:lang="en">This class represents all countries of origin</rdfs:comment>
+        <rdfs:label xml:lang="en">Origin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Premium_Economy -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Premium_Economy">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Premium_economy"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat"/>
+        <rdfs:comment xml:lang="en">This class represents all premium aconomy seats</rdfs:comment>
+        <rdfs:label xml:lang="en">Premium economy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_Airways -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_Airways">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Company"/>
+        <rdfs:comment xml:lang="en">This class represents Qatar Airways</rdfs:comment>
+        <rdfs:label xml:lang="en">Qatar_Airways</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating">
+        <rdfs:comment xml:lang="en">This class represents every possible rating</rdfs:comment>
+        <rdfs:label xml:lang="en">Rating</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Company"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat">
+        <rdfs:comment xml:lang="en">This class represents every possible seat type</rdfs:comment>
+        <rdfs:label xml:lang="en">Seat Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Solo_Leisure -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Solo_Leisure">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Solo_leisure"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller"/>
+        <rdfs:comment xml:lang="en">This class represents all solo leisure travellers</rdfs:comment>
+        <rdfs:label xml:lang="en">Solo leisure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey">
+        <rdfs:comment xml:lang="en">This class represents all satisfaction surveys</rdfs:comment>
+        <rdfs:label>Survey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller">
+        <rdfs:comment xml:lang="en">This class represents all traveller types</rdfs:comment>
+        <rdfs:label xml:lang="en">Traveller type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Verified -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Verified">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight"/>
+        <rdfs:comment xml:lang="en">This class represents all verified flights</rdfs:comment>
+        <rdfs:label xml:lang="en">Verified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey"/>
+        <PEC2_2:hasAuthor rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Author"/>
+        <PEC2_2:hasFlight rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Flight"/>
+        <PEC2_2:hasRating rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#10"/>
+        <PEC2_2:isAirline rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair"/>
+        <PEC2_2:hasDate>03/02/2024</PEC2_2:hasDate>
+        <PEC2_2:hasReview>Flew back from Faro to London Luton Friday 2nd February. Ryanair in both directions was bang on time and smooth flights in both directions.  We always sit in Front for more space and this was very comfortable for just under a 3 hour flight. The cabin crew were polite and efficient with nice sense of humour especially and engagement especially Ethan and his female colleague at the front section. For their human touch [unlike sometimes the stand offish BA crews] merit a 10/10 marking</PEC2_2:hasReview>
+        <PEC2_2:hasTitle>&quot;bang on time and smooth flights&quot;</PEC2_2:hasTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Author -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Author">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Author"/>
+        <PEC2_2:isFrom rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/United_kingdom"/>
+        <PEC2_2:isSeatType rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class"/>
+        <PEC2_2:isTravelType rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_leisure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Flight -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#01Flight">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight"/>
+        <PEC2_2:hasAircraft rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Boeing_737_900"/>
+        <PEC2_2:hasDestiny rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Luton"/>
+        <PEC2_2:hasOrigin rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Faro"/>
+        <PEC2_2:flewIn>01/02/2024</PEC2_2:flewIn>
+        <PEC2_2:isVerified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</PEC2_2:isVerified>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#10 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3Flight -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3Flight">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight"/>
+        <PEC2_2:hasAircraft rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/A380-800"/>
+        <PEC2_2:hasDestiny rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/London_Heathrow"/>
+        <PEC2_2:hasOrigin rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Doha"/>
+        <PEC2_2:flewIn>February 2024</PEC2_2:flewIn>
+        <PEC2_2:isVerified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</PEC2_2:isVerified>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3Survey -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#3Survey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey"/>
+        <PEC2_2:hasRating rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#10"/>
+        <PEC2_2:isAirline rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_airways"/>
+        <PEC2_2:hasDate>2024-02-25</PEC2_2:hasDate>
+        <PEC2_2:hasReview>We flew on probably the first A380 the airline received but it’s up keep is very good the caviar was excellent and the rack of lamb was perfect the entertainment system though the screens were huge and not very cooperative it is very dated as for WiFi was bad to say the least. The seating in First Class was good and the toilets are huge I hope they update the A380.</PEC2_2:hasReview>
+        <PEC2_2:hasTitle>“I hope they update the A380”</PEC2_2:hasTitle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#7 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#8 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#9 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2#9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/A380-800 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/A380-800">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Aircraft"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Alwaleed_Althani -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Alwaleed_Althani">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Author"/>
+        <PEC2_2:isFrom rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar"/>
+        <PEC2_2:isSeatType rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class"/>
+        <PEC2_2:isTravelType rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_leisure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Boeing_737_900 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Boeing_737_900">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Aircraft"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_leisure -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_leisure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Doha -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Doha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Origin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_leisure -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_leisure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Faro -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Faro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Origin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/London_Heathrow -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/London_Heathrow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Destiny"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Luton -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Luton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Destiny"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Premium_economy -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Premium_economy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_airways -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_airways">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Solo_leisure -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Solo_leisure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/United_kingdom -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/United_kingdom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business">
+        <rdfs:comment xml:lang="en">This class represents all business travellers</rdfs:comment>
+        <rdfs:label xml:lang="en">Business</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class">
+        <rdfs:comment xml:lang="en">This class represents business class seats</rdfs:comment>
+        <rdfs:label xml:lang="en">Business class</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class">
+        <rdfs:comment xml:lang="en">This class represents economy class seats</rdfs:comment>
+        <rdfs:label xml:lang="en">Economy class</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class">
+        <rdfs:comment xml:lang="en">This class represents all first class seats</rdfs:comment>
+        <rdfs:label xml:lang="en">First class</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair">
+        <rdfs:comment xml:lang="en">This class represents Ryanair</rdfs:comment>
+        <rdfs:label xml:lang="en">Ryanair</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_Leisure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_Leisure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Solo_Leisure"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Premium_Economy"/>
+        </owl:members>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/s">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/sur">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Used to indicate that a trip is unverified</rdfs:comment>
+        <rdfs:label>not_verified_trip</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/s"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/s"/>
+                                <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</swrl:argument2>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Not_Verified"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/s"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Used to indicate that a trip is verified</rdfs:comment>
+        <rdfs:label>Verified_trip</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/s"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/s"/>
+                                <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Verified"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/s"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Indicates surveys from Qatar airways</rdfs:comment>
+        <rdfs:label>Qatar_survey</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/sur"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isAirline"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/sur"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_airways"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_Airways"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/sur"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Indicates surveys from Ryanair</rdfs:comment>
+        <rdfs:label>Ryanair_survey</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/sur"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isAirline"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/sur"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/sur"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
