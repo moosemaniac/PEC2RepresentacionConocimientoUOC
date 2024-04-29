@@ -1,0 +1,18 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Qatar_Airways" "base:Verified" "base:Seat" "base:Economy_class" "base:First_class" "base:Company" "base:Family_Leisure" "base:Traveller" "base:Solo_Leisure" "base:Business" "base:Premium_Economy" "base:Not_Verified" "base:Flight" "base:Ryanair" "base:Couple_Leisure" "base:Business_class" ; /*classes style*/
+	"base:Ryanair" -> "base:Company" [ label = "rdfs:subClassOf" ];
+	"base:Not_Verified" -> "base:Flight" [ label = "rdfs:subClassOf" ];
+	"base:Economy_class" -> "base:Seat" [ label = "rdfs:subClassOf" ];
+	"base:Couple_Leisure" -> "base:Traveller" [ label = "rdfs:subClassOf" ];
+	"base:First_class" -> "base:Seat" [ label = "rdfs:subClassOf" ];
+	"base:Business_class" -> "base:Seat" [ label = "rdfs:subClassOf" ];
+	"base:Verified" -> "base:Flight" [ label = "rdfs:subClassOf" ];
+	"base:Premium_Economy" -> "base:Seat" [ label = "rdfs:subClassOf" ];
+	"base:Qatar_Airways" -> "base:Company" [ label = "rdfs:subClassOf" ];
+	"base:Solo_Leisure" -> "base:Traveller" [ label = "rdfs:subClassOf" ];
+	"base:Business" -> "base:Traveller" [ label = "rdfs:subClassOf" ];
+	"base:Family_Leisure" -> "base:Traveller" [ label = "rdfs:subClassOf" ];
+
+}
