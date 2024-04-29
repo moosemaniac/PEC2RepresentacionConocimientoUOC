@@ -1,0 +1,145 @@
+{
+  "@context" : {
+    "hasTitle" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasTitle",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Verified" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Verified"
+    },
+    "hasRating" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasRating",
+      "@type" : "@id"
+    },
+    "Destiny" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Destiny"
+    },
+    "flewIn" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/flewIn",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Country" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Country"
+    },
+    "hasAircraft" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAircraft",
+      "@type" : "@id"
+    },
+    "Couple_Leisure" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Couple_Leisure"
+    },
+    "isRuleEnabled" : {
+      "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"
+    },
+    "isTravelType" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isTravelType",
+      "@type" : "@id"
+    },
+    "Not_Verified" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Not_Verified"
+    },
+    "First_class" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/First_class"
+    },
+    "Economy_class" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Economy_class"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Solo_Leisure" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Solo_Leisure"
+    },
+    "hasReview" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasReview",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Origin" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Origin"
+    },
+    "Business" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business"
+    },
+    "hasDate" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Traveller" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Traveller"
+    },
+    "hasDestiny" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasDestiny",
+      "@type" : "@id"
+    },
+    "hasFlight" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasFlight",
+      "@type" : "@id"
+    },
+    "hasAuthor" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasAuthor",
+      "@type" : "@id"
+    },
+    "Seat" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Seat"
+    },
+    "Survey" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Survey"
+    },
+    "Qatar_Airways" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Qatar_Airways"
+    },
+    "Company" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Company"
+    },
+    "isVerified" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isVerified",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "Rating" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Rating"
+    },
+    "Aircraft" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Aircraft"
+    },
+    "Ryanair" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Ryanair"
+    },
+    "isFrom" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isFrom",
+      "@type" : "@id"
+    },
+    "isSeatType" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isSeatType",
+      "@type" : "@id"
+    },
+    "Flight" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Flight"
+    },
+    "Author" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Author"
+    },
+    "Premium_Economy" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Premium_Economy"
+    },
+    "Family_Leisure" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Family_Leisure"
+    },
+    "isAirline" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/isAirline",
+      "@type" : "@id"
+    },
+    "hasOrigin" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/hasOrigin",
+      "@type" : "@id"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Business_class" : {
+      "@id" : "http://www.semanticweb.org/cexpo/ontologies/2024/3/PEC2_2/Business_class"
+    }
+  }
+}
